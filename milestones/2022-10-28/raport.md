@@ -33,6 +33,27 @@ Najpopularniejszym rozwiązaniem tego typu jest Google Home, który pozwala na i
 
 <!-- Podział projektu na moduły oraz interfejsy pomiędzy poszczególnymi modułami. Moduły powinny być tak zaplanowane, żeby reprezentowały dobrze wydzieloną część systemu (nadającą się do powtórnego wykorzystania) i żeby dało się je (w miarę) równolegle implementować. -->
 
+Podział na moduły:
+- Urządzenia
+  - Aplikacja bazowa
+    - Konfiguracja urządzenia przez Wi-Fi (tryb accesspoint)
+    - Usypianie/wybudzanie urządzenia
+    - Odczyt danych z czujnika przez bridge (generycznie!)
+    - Publikowanie danych do brokera MQTT
+  - Biblioteka czujnika (gotowa biblioteka + plik nagłówkowy z informacjami o dostępnych danych)
+  - Bridge (wspólny sposób czytania danych z różnych czujników)
+- Webapp
+  - GUI z pomiarami/wykresami
+    ![home-assistant](https://media.discordapp.net/attachments/1026161539591458967/1028411338659209216/unknown.png)
+  - Ustawienia użytkownika (dane kontaktowe, hasło, username, avatar)
+  - Ustawienia domu (dodawanie/usuwanie pomieszczeń, tworzenie/anulowanie zaproszeń)
+- API
+  - Endpointy z aktualnymi pomiarami (REST API - `GET`)
+  - Endpointy z historycznymi danymi (REST API - `GET`)
+  - Ustawienia użytkownika
+  - Ustawienia domu
+  - Zadania `cron`
+
 # Literatura
 
 <!-- Badania (research) literatury. Należy znaleźć m.in. artykuły opisujące podobne do planowanego systemu rozwiązania, oraz artykuły przedstawiające problematykę/rozwiązania/implementacje/itp. zagadnień użytecznych z punku widzenia projektowanego systemu (np. modele matematyczne/fizyczne/itp., których można użyć w implementacji projektowanego systemu, zagadnienia dot. przesyłania danych w podobnych systemach, bezpieczeństwa itp.). Należy krótko przedstawić co z danego artykułu zostanie potencjalnie wykorzystane w projektowanym systemie wraz z krótkim uzasadnieniem dlaczego. -->
@@ -86,7 +107,7 @@ wymaganych przez uprawy.
 
 # Stos technologiczny
 
-<!-- Planowany stos technologiczny wraz z uzasadnieniem wyboru (oraz alternatywnymi rozwiązaniami, które zostały odrzucone - również z uzasadnieniem) -->
+
 
 ## Mikrokontroler
 
