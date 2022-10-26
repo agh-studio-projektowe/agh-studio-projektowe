@@ -59,45 +59,65 @@ Podział na moduły:
 <!-- Badania (research) literatury. Należy znaleźć m.in. artykuły opisujące podobne do planowanego systemu rozwiązania, oraz artykuły przedstawiające problematykę/rozwiązania/implementacje/itp. zagadnień użytecznych z punku widzenia projektowanego systemu (np. modele matematyczne/fizyczne/itp., których można użyć w implementacji projektowanego systemu, zagadnienia dot. przesyłania danych w podobnych systemach, bezpieczeństwa itp.). Należy krótko przedstawić co z danego artykułu zostanie potencjalnie wykorzystane w projektowanym systemie wraz z krótkim uzasadnieniem dlaczego. -->
 
 
-* artykuły opisujące podobne do planowanego systemu rozwiązania
-       
-       
-    - [LINK](https://ieeexplore.ieee.org/document/8073958) Dzięki temu artykułowi dowiadujemy się jak monitorować **temperaturę i wilgotności** w różnych punktach lokalizacji i zrobienie alertu gdy temperatura przekroczy pewną wartość. Rozwiązanie na płytce ESP8266,  Publikowanie danych z czujników w czasie rzeczywistym.
+## Artykuły opisujące podobne do planowanego systemu rozwiązania
 
-        Wykorzystanie:
-        W naszym projekcie chcielibyśmy zastosować funkcjonalność monitorowania temperatury i wilgotności. Którą będzie można w łatwy sposób sprawdzić w aplikacji.
-        Artykułu użyliśmy dlatego, że problem został rozwiązany na płytce ESP8266, której używamy w projekcie oraz system alertów, który również chcemy zaimplementować. 
-        
-   - [LINK](https://ieeexplore.ieee.org/abstract/document/7906792) Artykuł pokazuje monitorowanie **wilgotności, temperatury** potrzebnych różnym uprawom za pomocą czujników. 
-Dane są zbierane i odbierane przez arduino, które mogą być połączone z interaktywną stroną internetową,
-która pokazuje wartości w czasie rzeczywistym wraz z wartościami standardowymi różnych czynników 
-wymaganych przez uprawy.
-        
-        Wykorzystanie:
-        Kolejny przykład zastosowania monitorowania temperatury i wilgotności. 
-        Artykułu użyliśmy dlatego, że problem został rozwiązany na płytce ESP8266 oraz Arduino którego używamy w projekcie. 
-        
-   - [LINK](https://ieeexplore.ieee.org/document/8711997)  Artykuł wykorzystujący działanie **barometru** BMP280.
-        Aplikacja informujące o warunkach pogodowych w czasie rzeczywistym.
-        Dane zebrane są porównywane z danymi z kilku aplikacji prognozujących pogodę w niektórych mediach.
-        Dane są przesyłane i przechowywane w bazie danych, a następnie wyświetlane w aplikacji internetowej
-        i mobilnej. Na podstawie tych informacji, użytkownik może uzyskać informacje bezpośrednio w czasie rzeczywistym.
-        
-        Wykorzystanie:
-        W naszej aplikacji chcemy mieć również informację o warunkach w czasie rzeczywistym, w artykule został wykorzystany czujnik BMP280, który posiadamy i chcielibyśmy wykorzystać w projekcie. Oprócz tego, zainteresowało nas samo działanie aplikacji m.in przesyłanie, przechowywanie i przetwarzanie danych. 
+### Data centre temperature monitoring with ESP8266 based Wireless Sensor Network and cloud based dashboard with real time alert system
 
-   - [LINK](https://www.sciencedirect.com/science/article/pii/S0378778816319971)  W artykule przedstawiono prototyp inteligentnego systemu oświetleniowego. Jest to aplikacja mobilna, która wykorzystywała wbudowany **czujnik światła** otoczenia do uruchomienia algorytmu sprzężenia zwrotnego w pętli zamkniętej w celu wdrożenia zbierania światła dziennego.
-        
-        Wykorzystanie:
-        W naszej aplikacji planujemy wykorzystanie czujnika światła.  W artykule został wykorzystany własnie taki czujnik w połączeniu z IoT,  okaże się to pomocne podczas implementacji rozwiązania sterowania roletami w pomieszczeniu.
-        
-* artykuły przedstawiające problematykę/rozwiązania/implementacje/itp. zagadnienia użytecznych z punku widzenia projektowanego systemu
+Dzięki temu artykułowi dowiadujemy się jak monitorować **temperaturę i wilgotności** w różnych punktach lokalizacji i zrobienie alertu gdy temperatura przekroczy pewną wartość. Rozwiązanie na płytce ESP8266,  Publikowanie danych z czujników w czasie rzeczywistym.
 
-    - [LINK](https://d1wqtxts1xzle7.cloudfront.net/53208020/CSEIT172289-with-cover-page-v2.pdf?Expires=1666806891&Signature=XkU0hZ4jNAWaRJWjZpawXp~PRLD~Mm1hkTbRAC431yleN6DXDHI8Gj30Iy3OXTWek6yzBipqXe6ZkP7bWD5NeQNbWbfDPuxvN0s2fWFfxKS6X~HSESriqSCpAK~bxwlLqm0VDzA04KxN-IwYI2~hvPyh5uX5CKr3WypJQHuDCdRfeM5~zRiiMZnl9PPD-5kJtyz6Z6mTFiTZ5KQjxurvFvbHk0IiqlIXJ4ihH3xCH~OmrFcL0yER--FTwTKt5B2wBY1jVPnwHin6Sxs2rAuBs4vKNUM0i0NCPeGPuRzbhOkK85LwmQedHayyg4XkN7mGB1AEMTSdFgwgR3~E~TrQrw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) Urządzenie IoT -  Wykorzstanie PHP do stworzenia aplikacji webowej, Arudino, ESP8266, Wifi, Bazy danych 
-    
-   -  https://ieeexplore.ieee.org/abstract/document/7570919
-   -  [TODO](https://ieeexplore.ieee.org/abstract/document/9422655) mongoDB + esp8266 , PlatformIO and Arduino 
-   -  [TODO](https://ieeexplore.ieee.org/abstract/document/8389037) ESP8266 + Arduino, PHP, temperature
+Wykorzystanie: W naszym projekcie chcielibyśmy zastosować funkcjonalność monitorowania temperatury i wilgotności. Którą będzie można w łatwy sposób sprawdzić w aplikacji. Artykułu użyliśmy dlatego, że problem został rozwiązany na płytce ESP8266, której używamy w projekcie oraz system alertów, który również chcemy zaimplementować.
+
+Link: https://ieeexplore.ieee.org/document/8073958
+
+### Arduino-based smart irrigation using water flow sensor, soil moisture sensor, temperature sensor and ESP8266 WiFi module
+        
+Artykuł pokazuje monitorowanie **wilgotności, temperatury** potrzebnych różnym uprawom za pomocą czujników. Dane są zbierane i odbierane przez arduino, które mogą być połączone z interaktywną stroną internetową, która pokazuje wartości w czasie rzeczywistym wraz z wartościami standardowymi różnych czynników wymaganych przez uprawy.
+        
+Wykorzystanie: Kolejny przykład zastosowania monitorowania temperatury i wilgotności. Artykułu użyliśmy dlatego, że problem został rozwiązany na płytce ESP8266 oraz Arduino którego używamy w projekcie.
+
+Link: https://ieeexplore.ieee.org/abstract/document/7906792
+        
+### Remote Access Weather Monitoring System Based on Soft Real-Time System (SRTS)
+
+Artykuł wykorzystujący działanie **barometru** BMP280. Aplikacja informujące o warunkach pogodowych w czasie rzeczywistym. Dane zebrane są porównywane z danymi z kilku aplikacji prognozujących pogodę w niektórych mediach. ane są przesyłane i przechowywane w bazie danych, a następnie wyświetlane w aplikacji internetowej i mobilnej. Na podstawie tych informacji, użytkownik może uzyskać informacje bezpośrednio w czasie rzeczywistym.
+
+Wykorzystanie: W naszej aplikacji chcemy mieć również informację o warunkach w czasie rzeczywistym, w artykule został wykorzystany czujnik BMP280, który posiadamy i chcielibyśmy wykorzystać w projekcie. Oprócz tego, zainteresowało nas samo działanie aplikacji m.in przesyłanie, przechowywanie i przetwarzanie danych.
+
+Link: https://ieeexplore.ieee.org/document/8711997
+
+### Development of a prototype smart home intelligent lighting control architecture using sensors onboard a mobile computing system
+
+W artykule przedstawiono prototyp inteligentnego systemu oświetleniowego. Jest to aplikacja mobilna, która wykorzystywała wbudowany **czujnik światła** otoczenia do uruchomienia algorytmu sprzężenia zwrotnego w pętli zamkniętej w celu wdrożenia zbierania światła dziennego.
+        
+Wykorzystanie: W naszej aplikacji planujemy wykorzystanie czujnika światła.  W artykule został wykorzystany własnie taki czujnik w połączeniu z IoT,  okaże się to pomocne podczas implementacji rozwiązania sterowania roletami w pomieszczeniu.
+
+Link: https://www.sciencedirect.com/science/article/pii/S0378778816319971
+        
+## Artykuły przedstawiające problematykę, rozwiązania, implementacje i temu podobne zagadnienia użyteczne z punku widzenia projektowanego systemu
+
+### IOT Based on Garbage Monitoring System
+
+Urządzenie IoT -  Wykorzstanie PHP do stworzenia aplikacji webowej, Arudino, ESP8266, Wifi, Bazy danych 
+
+Link: https://ijsrcseit.com/paper/CSEIT172289.pdf
+
+### ESP8266 based implementation of wireless sensor network with Linux based web-server
+
+TODO
+
+Link: https://ieeexplore.ieee.org/abstract/document/7570919
+
+### A Design of Greenhouse Monitoring System Based on Low-Cost Mesh Wi-Fi Wireless Sensor Network
+
+mongoDB + esp8266 , PlatformIO and Arduino
+
+Link: https://ieeexplore.ieee.org/abstract/document/9422655
+
+### IoT based smart home automation system using sensor node
+
+ESP8266 + Arduino, PHP, temperature
+
+Link: https://ieeexplore.ieee.org/abstract/document/8389037
 
 <!--
 
@@ -107,7 +127,7 @@ wymaganych przez uprawy.
 
 # Stos technologiczny
 
-
+TODO
 
 ## Mikrokontroler
 
