@@ -45,7 +45,7 @@ Najpopularniejszym rozwiązaniem tego typu jest Google Home, który pozwala na i
 
         Wykorzystanie:
         W naszym projekcie chcielibyśmy zastosować funkcjonalność monitorowania temperatury i wilgotności. Którą będzie można w łatwy sposób sprawdzić w aplikacji.
-        Artykułu użyliśmy dlatego, że problem został rozwiązany na płytce ESP8266, której używamy w projekcie. 
+        Artykułu użyliśmy dlatego, że problem został rozwiązany na płytce ESP8266, której używamy w projekcie oraz system alertów, który również chcemy zaimplementować. 
         
    - [LINK](https://ieeexplore.ieee.org/abstract/document/7906792) Artykuł pokazuje monitorowanie **wilgotności, temperatury** potrzebnych różnym uprawom za pomocą czujników. 
 Dane są zbierane i odbierane przez arduino, które mogą być połączone z interaktywną stroną internetową,
