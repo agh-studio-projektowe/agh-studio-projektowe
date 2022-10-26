@@ -96,7 +96,7 @@ wymaganych przez uprawy.
     - [LINK](https://d1wqtxts1xzle7.cloudfront.net/53208020/CSEIT172289-with-cover-page-v2.pdf?Expires=1666806891&Signature=XkU0hZ4jNAWaRJWjZpawXp~PRLD~Mm1hkTbRAC431yleN6DXDHI8Gj30Iy3OXTWek6yzBipqXe6ZkP7bWD5NeQNbWbfDPuxvN0s2fWFfxKS6X~HSESriqSCpAK~bxwlLqm0VDzA04KxN-IwYI2~hvPyh5uX5CKr3WypJQHuDCdRfeM5~zRiiMZnl9PPD-5kJtyz6Z6mTFiTZ5KQjxurvFvbHk0IiqlIXJ4ihH3xCH~OmrFcL0yER--FTwTKt5B2wBY1jVPnwHin6Sxs2rAuBs4vKNUM0i0NCPeGPuRzbhOkK85LwmQedHayyg4XkN7mGB1AEMTSdFgwgR3~E~TrQrw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) Urządzenie IoT -  Wykorzstanie PHP do stworzenia aplikacji webowej, Arudino, ESP8266, Wifi, Bazy danych 
     
    -  https://ieeexplore.ieee.org/abstract/document/7570919
-   -  TODO
+   -  [TODO](https://ieeexplore.ieee.org/abstract/document/9422655) mongoDB + esp8266 , PlatformIO and Arduino 
 
 
 
