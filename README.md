@@ -1,5 +1,10 @@
 # Changelog
 
+## 26 października 2022
+
+- Przygotowanie diagramów usecase
+- Wstępny podział systemu na aplikacje
+
 ## 21 października 2022
 
 - Wydzielenie aktorów i przypadków użycia w systemie
