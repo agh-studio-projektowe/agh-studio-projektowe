@@ -97,7 +97,7 @@ wymaganych przez uprawy.
     
    -  https://ieeexplore.ieee.org/abstract/document/7570919
    -  [TODO](https://ieeexplore.ieee.org/abstract/document/9422655) mongoDB + esp8266 , PlatformIO and Arduino 
-
+   -  [TODO](https://ieeexplore.ieee.org/abstract/document/8389037)
 
 <!--
 
