@@ -99,11 +99,11 @@ wymaganych przez uprawy.
    -  [TODO](https://ieeexplore.ieee.org/abstract/document/9422655) mongoDB + esp8266 , PlatformIO and Arduino 
 
 
-
+<!--
 
 # Algorytmy wykorzystane w projekcie
 
-<!-- Algorytmy, techniki, prawa fizyczne, wzory, itp. które zostaną wykorzystane. Na przykład jeśli częścią projektu jest symulator to na bazie jakich algorytmów/praw fizycznych będzie on zaimplementowany, jeśli częścią systemu jest optymalizacja/rozpoznawanie czegoś to jakie techniki (np. z zakresu uczenia maszynowego) zostaną zastosowane. -->
+ Algorytmy, techniki, prawa fizyczne, wzory, itp. które zostaną wykorzystane. Na przykład jeśli częścią projektu jest symulator to na bazie jakich algorytmów/praw fizycznych będzie on zaimplementowany, jeśli częścią systemu jest optymalizacja/rozpoznawanie czegoś to jakie techniki (np. z zakresu uczenia maszynowego) zostaną zastosowane. -->
 
 # Stos technologiczny
 
