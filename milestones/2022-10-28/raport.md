@@ -33,7 +33,7 @@ Trzeba również wspomnieć o Home Assistant, który obsługuje więcej typów u
 
 <!-- Podział projektu na moduły oraz interfejsy pomiędzy poszczególnymi modułami. Moduły powinny być tak zaplanowane, żeby reprezentowały dobrze wydzieloną część systemu (nadającą się do powtórnego wykorzystania) i żeby dało się je (w miarę) równolegle implementować. -->
 
-Podział na moduły:
+Podział na moduły i interfejsy:
 
 - Urządzenia
   - Aplikacja bazowa
@@ -53,8 +53,7 @@ Podział na moduły:
   - Ustawienia użytkownika
   - Ustawienia domu
   - Zadania `cron`
-
-TODO: interfejsy
+- Baza danych   
 
 # Literatura
 
