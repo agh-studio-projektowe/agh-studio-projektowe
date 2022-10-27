@@ -103,19 +103,19 @@ Link: https://ijsrcseit.com/paper/CSEIT172289.pdf
 
 ### ESP8266 based implementation of wireless sensor network with Linux based web-server
 
-TODO
+Urządzenie IoT - ESP8266 + Apache+ PHP + SQLite3.
 
 Link: https://ieeexplore.ieee.org/abstract/document/7570919
 
 ### A Design of Greenhouse Monitoring System Based on Low-Cost Mesh Wi-Fi Wireless Sensor Network
 
-mongoDB + esp8266 , PlatformIO and Arduino
+Urządzenie IoT - MongoDB + esp8266, PlatformIO i Arduino
 
 Link: https://ieeexplore.ieee.org/abstract/document/9422655
 
 ### IoT based smart home automation system using sensor node
 
-ESP8266 + Arduino, PHP, temperature
+Urządzenie IoT - ESP8266 + Arduino, PHP, temperature
 
 Link: https://ieeexplore.ieee.org/abstract/document/8389037
 
