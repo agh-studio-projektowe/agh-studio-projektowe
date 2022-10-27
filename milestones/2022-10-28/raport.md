@@ -37,7 +37,7 @@ Podział na moduły:
 
 - Urządzenia
   - Aplikacja bazowa
-    - Konfiguracja urządzenia przez Wi-Fi (tryb accesspoint)
+    - Konfiguracja urządzenia przez Wi-Fi (tryb punktu dostępowego)
     - Usypianie/wybudzanie urządzenia
     - Odczyt danych z czujnika przez bridge (generycznie!)
     - Publikowanie danych do brokera MQTT
@@ -129,25 +129,21 @@ Link: https://ieeexplore.ieee.org/abstract/document/8389037
 
 # Stos technologiczny
 
-TODO
-
 ## Mikrokontroler
 
-Docelowa implementacja powstanie w frameworku Arduino (C++). Alternatywą dla naszego sprzętu (ESP8266) jest MicroPython, jednak na korzyść Arduino przemawia spora kolekcja bibliotek do czujników.
-
-Wstępnie zastąpimy fizyczne urządzenia skryptami napisanymi w języku JavaScript lub Python. Oba te języki pozwalają na szybką implementację algorytmu publikowania danych przez MQTT.
+Docelowa implementacja powstanie w frameworku Arduino (C++). Alternatywą dla naszego sprzętu (ESP8266) jest MicroPython, jednak na korzyść Arduino przemawia spora kolekcja bibliotek do czujników oraz łatwa implementacja algorytmu. Dodatkowo, skorzystamy z PlatformIO IDE, by przechowywać w projekcie załączane biblioteki oraz zorganizować czytelną strukturę plików.
 
 ## MQTT listener
 
-Implementacja powstanie w języku JavaScript (NodeJS) lub Python. Oba pozwalają na wygodną obsługę MQTT oraz bazy danych.
+Implementacja powstanie w języku JavaScript (NodeJS) lub Python. Oba pozwalają na wygodną obsługę MQTT oraz bazy danych. Alternatywą może być dowolny inny język programowania, jednak wybór padł na te dwa języki, gdyż są one powszechnie wykorzystywane do pracy z MQTT. Posiadają też wygodne biblioteki do komunikacji z użyciem tego protokołu.
 
 ## API
 
-Zostanie napisane z wykorzystaniem frameworku Symfony w języku PHP 8 wraz z dodatkami PHPStan do analizy statycznej kodu i PHPUnit do testowania kodu. Alternatywą był język Python (frameworki Django oraz Flask).
+Zostanie napisane z wykorzystaniem frameworku Symfony w języku PHP 8 wraz z dodatkami PHPStan do analizy statycznej kodu i PHPUnit do testowania kodu. Alternatywą był język Python (frameworki Django oraz Flask). Na korzyść PHP przemawia wygoda tworzenia nowych klas (w tym testów), integracja analizy statycznej z IDE oraz możliwość łatwego wygenerowania raportu pokrycia kodu testami.
 
 ## Aplikacja
 
-Planujemy stworzyć Single-Page Application, do czego możemy wykorzystać rozmaite frameworki JavaScript, jak AngularJS, React czy Vue.js, jednak nie wykluczamy klasycznej aplikacji z podstronami. W tym wypadku mogłaby to być wspólna aplikacja z API (monolit?), bądź pracująca niezależnie.
+Planujemy stworzyć Single-Page Application, do czego możemy wykorzystać rozmaite frameworki JavaScript, jak AngularJS, React czy Vue.js. Nie zdecydowaliśmy się jeszcze na konkretny framework. Komunikacja z API będzie się odbywać poprzez zapytania w tle (AJAX), z wykorzystaniem biblioteki Axios.
 
 \newpage
 
