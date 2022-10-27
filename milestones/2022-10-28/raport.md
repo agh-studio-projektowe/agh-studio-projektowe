@@ -21,7 +21,7 @@ Proponowane przez nas rozwiązanie pozwalałoby na niemal dowolną konfigurację
 
 Zakładamy, że cały system będzie utrzymywany na naszych serwerach. Chcemy jednak dopuścić do użytku urządzenia stworzone przez użytkowników. W związku z tym, przy konfiguracji czujników w aplikacji, użytkownik sam wybierze, jakie dane otrzymuje i na jakich tematach MQTT. Możliwe będzie więc dodanie wielu czujników obsługiwanych przez jedno urządzenie.
 
-Po założeniu konta, użytkownik może założyć nowy dom i dodawać do niego pomieszczenia. Może także przyjąć zaproszenie do istniejącego domu, jeżeli zostanie ono wysłane po procesie rejestracji. W domu każdy użytkownik jest równy: może zarządzać pomieszczeniami, urządzeniami oraz użytkownikami.
+Po założeniu konta, użytkownik może założyć nowy dom i dodawać do niego pomieszczenia. Może także przyjąć zaproszenie do istniejącego domu, jeżeli zostanie ono wysłane po procesie rejestracji. W domu każdy użytkownik jest równy: może zarządzać pomieszczeniami, urządzeniami oraz domownikami.Użytkownik może też nie przypisywać urządzenia do pomieszczenia w domu - jest ono wtedy widoczne tylko dla niego. To samo stanie się, gdy jeden z domowników usunie urządzenie z pomieszczenia.
 
 Najpopularniejszym rozwiązaniem tego typu jest Google Home, który pozwala na integrację urządzeń obsługiwanych przez inne systemy. Ma jednak ograniczoną ilość rodzajów urządzeń, przez co przykładowo czujnik temperatury i wilgotności musi być dodany jako termostat. Pojawia się wtedy informacja o ustawionym chłodzeniu, chociaż urządzenie w rzeczywistości takiej funkcjonalności nie posiada.
 
@@ -31,11 +31,9 @@ Trzeba również wspomnieć o Home Assistant, który obsługuje więcej typów u
 
 ![Home Assistant (fot. Filip Tomczyk)](home-assistant.png)
 
-# Podział na moduły
+# Podział na moduły i interfejsy
 
 <!-- Podział projektu na moduły oraz interfejsy pomiędzy poszczególnymi modułami. Moduły powinny być tak zaplanowane, żeby reprezentowały dobrze wydzieloną część systemu (nadającą się do powtórnego wykorzystania) i żeby dało się je (w miarę) równolegle implementować. -->
-
-Podział na moduły i interfejsy:
 
 - Urządzenia
   - Aplikacja bazowa
