@@ -7,6 +7,8 @@ author:
     - Piotr Sokołowski
 ---
 
+\newpage
+
 # Opis projektu
 
 <!-- Dokładny opis realizowanego projektu, jego zakres, przykłady zastosowania, planowane funkcjonalności (przypadki użycia), porównanie z istniejącymi rozwiązaniami, itp. -->
@@ -19,21 +21,20 @@ Proponowane przez nas rozwiązanie pozwalałoby na niemal dowolną konfigurację
 
 Zakładamy, że cały system będzie utrzymywany na naszych serwerach. Chcemy jednak dopuścić do użytku urządzenia stworzone przez użytkowników. W związku z tym, przy konfiguracji czujników w aplikacji, użytkownik sam wybierze, jakie dane otrzymuje i na jakich tematach MQTT. Możliwe będzie więc dodanie wielu czujników obsługiwanych przez jedno urządzenie.
 
-![Diagram przypadków użycia - odczyty z czujnika](schematy/odczyty-z-czujnikow.png)
-
-![Diagram przypadków użycia - akcje użytkownika](schematy/akcje-uzytkownika.png)
-
-![Diagram przypadków użycia - sterowanie urządzeniami](schematy/sterowanie-urzadzeniami.png)
-
-Najpopularniejszym rozwiązaniem tego typu jest Google Home, który pozwala na integrację urządzeń obsługiwanych przez inne systemy. Ma jednak ograniczoną ilość rodzajów urządzeń, przez co przykładowo czujnik temperatury i wilgotności musi być dodany jako termostat. Pojawia się wtedy informacja o ustawionym chłodzeniu, chociaż urządzenie w rzeczywistości takiej funkcjonalności nie posiada:
+Najpopularniejszym rozwiązaniem tego typu jest Google Home, który pozwala na integrację urządzeń obsługiwanych przez inne systemy. Ma jednak ograniczoną ilość rodzajów urządzeń, przez co przykładowo czujnik temperatury i wilgotności musi być dodany jako termostat. Pojawia się wtedy informacja o ustawionym chłodzeniu, chociaż urządzenie w rzeczywistości takiej funkcjonalności nie posiada.
 
 ![Czujnik DHT22 dodany do Google Home jako termostat](ghome.png)
+
+Trzeba również wspomnieć o Home Assistant, który obsługuje więcej typów urządzeń, a także posiada możliwość ustawiania scen i automatyzacji. Ponieważ jest to projekt open-source, może się też pochwalić ogromnym wsparciem społeczności. Niestety, jest on trudny w konfiguracji.
+
+![Home Assistant (fot. Filip Tomczyk)](home-assistant.png)
 
 # Podział na moduły
 
 <!-- Podział projektu na moduły oraz interfejsy pomiędzy poszczególnymi modułami. Moduły powinny być tak zaplanowane, żeby reprezentowały dobrze wydzieloną część systemu (nadającą się do powtórnego wykorzystania) i żeby dało się je (w miarę) równolegle implementować. -->
 
 Podział na moduły:
+
 - Urządzenia
   - Aplikacja bazowa
     - Konfiguracja urządzenia przez Wi-Fi (tryb accesspoint)
@@ -44,7 +45,6 @@ Podział na moduły:
   - Bridge (wspólny sposób czytania danych z różnych czujników)
 - Webapp
   - GUI z pomiarami/wykresami
-    ![home-assistant](https://media.discordapp.net/attachments/1026161539591458967/1028411338659209216/unknown.png)
   - Ustawienia użytkownika (dane kontaktowe, hasło, username, avatar)
   - Ustawienia domu (dodawanie/usuwanie pomieszczeń, tworzenie/anulowanie zaproszeń)
 - API
@@ -54,8 +54,7 @@ Podział na moduły:
   - Ustawienia domu
   - Zadania `cron`
 
-# Diagram interfejsów:
-TODO
+TODO: interfejsy
 
 # Literatura
 
@@ -149,3 +148,19 @@ Zostanie napisane z wykorzystaniem frameworku Symfony w języku PHP 8 wraz z dod
 ## Aplikacja
 
 Planujemy stworzyć Single-Page Application, do czego możemy wykorzystać rozmaite frameworki JavaScript, jak AngularJS, React czy Vue.js, jednak nie wykluczamy klasycznej aplikacji z podstronami. W tym wypadku mogłaby to być wspólna aplikacja z API (monolit?), bądź pracująca niezależnie.
+
+\newpage
+
+# Diagramy przypadków użycia
+
+![Diagram przypadków użycia - odczyty z czujnika](schematy/odczyty-z-czujnikow.png)
+
+![Diagram przypadków użycia - akcje użytkownika](schematy/akcje-uzytkownika.png)
+
+![Diagram przypadków użycia - sterowanie urządzeniami](schematy/sterowanie-urzadzeniami.png)
+
+\newpage
+
+# Diagram interfejsów
+
+![Diagram interfejsów - podział systemu na moduły i interfejsy](schematy/interfejsy.png)
