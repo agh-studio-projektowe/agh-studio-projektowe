@@ -100,9 +100,9 @@ Link: https://www.sciencedirect.com/science/article/pii/S0378778816319971
 
 ### IOT Based on Garbage Monitoring System
 
-Urządzenie IoT -  Wykorzstanie PHP do stworzenia aplikacji webowej, Arudino, ESP8266, Wifi, Bazy danych
+Artykuł opisuje projekt systemu do monitorowania poziomu napełnienia śmietników bazujący na urządzeniach IoT. System wykorzystuje dane wygenerowane z czujnika nacisku i na ich podstawie pokazuje status śmietnika w aplikacji webowej. 
 
-**Wykorzystanie:**
+**Wykorzystanie:** W naszej aplikacji planujemy wykorzystać czujniki zaprogramowane w Arduino, PHP WebService oraz ESP8266. Rozwiązania przedstawione w artykule w większym stopniu pokrywają się z naszym pomysłem odnośnie wykorzystania czujników w aplikacji. Okaże się to pomocne przy projektowaniu aplikacji webowej oraz zapewnieniu jej komunikacji z danymi wygenerowanymi przez czujniki. 
 
 Link: https://ijsrcseit.com/paper/CSEIT172289.pdf
 
