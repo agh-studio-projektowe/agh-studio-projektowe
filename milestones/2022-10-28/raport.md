@@ -21,6 +21,8 @@ Proponowane przez nas rozwiązanie pozwalałoby na niemal dowolną konfigurację
 
 Zakładamy, że cały system będzie utrzymywany na naszych serwerach. Chcemy jednak dopuścić do użytku urządzenia stworzone przez użytkowników. W związku z tym, przy konfiguracji czujników w aplikacji, użytkownik sam wybierze, jakie dane otrzymuje i na jakich tematach MQTT. Możliwe będzie więc dodanie wielu czujników obsługiwanych przez jedno urządzenie.
 
+Po założeniu konta, użytkownik może założyć nowy dom i dodawać do niego pomieszczenia. Może także przyjąć zaproszenie do istniejącego domu, jeżeli zostanie ono wysłane po procesie rejestracji. W domu każdy użytkownik jest równy: może zarządzać pomieszczeniami, urządzeniami oraz użytkownikami.
+
 Najpopularniejszym rozwiązaniem tego typu jest Google Home, który pozwala na integrację urządzeń obsługiwanych przez inne systemy. Ma jednak ograniczoną ilość rodzajów urządzeń, przez co przykładowo czujnik temperatury i wilgotności musi być dodany jako termostat. Pojawia się wtedy informacja o ustawionym chłodzeniu, chociaż urządzenie w rzeczywistości takiej funkcjonalności nie posiada.
 
 ![Czujnik DHT22 dodany do Google Home jako termostat](ghome.png)
@@ -66,7 +68,7 @@ Podział na moduły i interfejsy:
 
 Dzięki temu artykułowi dowiadujemy się jak monitorować **temperaturę i wilgotności** w różnych punktach lokalizacji i zrobienie alertu gdy temperatura przekroczy pewną wartość. Rozwiązanie na płytce ESP8266,  Publikowanie danych z czujników w czasie rzeczywistym.
 
-Wykorzystanie: W naszym projekcie chcielibyśmy zastosować funkcjonalność monitorowania temperatury i wilgotności. Którą będzie można w łatwy sposób sprawdzić w aplikacji. Artykułu użyliśmy dlatego, że problem został rozwiązany na płytce ESP8266, której używamy w projekcie oraz system alertów, który również chcemy zaimplementować.
+**Wykorzystanie:** W naszym projekcie chcielibyśmy zastosować funkcjonalność monitorowania temperatury i wilgotności. Którą będzie można w łatwy sposób sprawdzić w aplikacji. Artykułu użyliśmy dlatego, że problem został rozwiązany na płytce ESP8266, której używamy w projekcie oraz system alertów, który również chcemy zaimplementować.
 
 Link: https://ieeexplore.ieee.org/document/8073958
 
@@ -74,7 +76,7 @@ Link: https://ieeexplore.ieee.org/document/8073958
         
 Artykuł pokazuje monitorowanie **wilgotności, temperatury** potrzebnych różnym uprawom za pomocą czujników. Dane są zbierane i odbierane przez arduino, które mogą być połączone z interaktywną stroną internetową, która pokazuje wartości w czasie rzeczywistym wraz z wartościami standardowymi różnych czynników wymaganych przez uprawy.
         
-Wykorzystanie: Kolejny przykład zastosowania monitorowania temperatury i wilgotności. Artykułu użyliśmy dlatego, że problem został rozwiązany na płytce ESP8266 oraz Arduino którego używamy w projekcie.
+**Wykorzystanie:** Kolejny przykład zastosowania monitorowania temperatury i wilgotności. Artykułu użyliśmy dlatego, że problem został rozwiązany na płytce ESP8266 oraz Arduino którego używamy w projekcie.
 
 Link: https://ieeexplore.ieee.org/abstract/document/7906792
         
@@ -82,7 +84,7 @@ Link: https://ieeexplore.ieee.org/abstract/document/7906792
 
 Artykuł wykorzystujący działanie **barometru** BMP280. Aplikacja informujące o warunkach pogodowych w czasie rzeczywistym. Dane zebrane są porównywane z danymi z kilku aplikacji prognozujących pogodę w niektórych mediach. ane są przesyłane i przechowywane w bazie danych, a następnie wyświetlane w aplikacji internetowej i mobilnej. Na podstawie tych informacji, użytkownik może uzyskać informacje bezpośrednio w czasie rzeczywistym.
 
-Wykorzystanie: W naszej aplikacji chcemy mieć również informację o warunkach w czasie rzeczywistym, w artykule został wykorzystany czujnik BMP280, który posiadamy i chcielibyśmy wykorzystać w projekcie. Oprócz tego, zainteresowało nas samo działanie aplikacji m.in przesyłanie, przechowywanie i przetwarzanie danych.
+**Wykorzystanie:** W naszej aplikacji chcemy mieć również informację o warunkach w czasie rzeczywistym, w artykule został wykorzystany czujnik BMP280, który posiadamy i chcielibyśmy wykorzystać w projekcie. Oprócz tego, zainteresowało nas samo działanie aplikacji m.in przesyłanie, przechowywanie i przetwarzanie danych.
 
 Link: https://ieeexplore.ieee.org/document/8711997
 
@@ -90,7 +92,7 @@ Link: https://ieeexplore.ieee.org/document/8711997
 
 W artykule przedstawiono prototyp inteligentnego systemu oświetleniowego. Jest to aplikacja mobilna, która wykorzystywała wbudowany **czujnik światła** otoczenia do uruchomienia algorytmu sprzężenia zwrotnego w pętli zamkniętej w celu wdrożenia zbierania światła dziennego.
         
-Wykorzystanie: W naszej aplikacji planujemy wykorzystanie czujnika światła.  W artykule został wykorzystany własnie taki czujnik w połączeniu z IoT,  okaże się to pomocne podczas implementacji rozwiązania sterowania roletami w pomieszczeniu.
+**Wykorzystanie:** W naszej aplikacji planujemy wykorzystanie czujnika światła.  W artykule został wykorzystany własnie taki czujnik w połączeniu z IoT,  okaże się to pomocne podczas implementacji rozwiązania sterowania roletami w pomieszczeniu.
 
 Link: https://www.sciencedirect.com/science/article/pii/S0378778816319971
         
@@ -98,7 +100,9 @@ Link: https://www.sciencedirect.com/science/article/pii/S0378778816319971
 
 ### IOT Based on Garbage Monitoring System
 
-Urządzenie IoT -  Wykorzstanie PHP do stworzenia aplikacji webowej, Arudino, ESP8266, Wifi, Bazy danych 
+Urządzenie IoT -  Wykorzstanie PHP do stworzenia aplikacji webowej, Arudino, ESP8266, Wifi, Bazy danych
+
+**Wykorzystanie:**
 
 Link: https://ijsrcseit.com/paper/CSEIT172289.pdf
 
@@ -106,17 +110,23 @@ Link: https://ijsrcseit.com/paper/CSEIT172289.pdf
 
 Urządzenie IoT - ESP8266 + Apache+ PHP + SQLite3.
 
+**Wykorzystanie:**
+
 Link: https://ieeexplore.ieee.org/abstract/document/7570919
 
 ### A Design of Greenhouse Monitoring System Based on Low-Cost Mesh Wi-Fi Wireless Sensor Network
 
 Urządzenie IoT - MongoDB + esp8266, PlatformIO i Arduino
 
+**Wykorzystanie:**
+
 Link: https://ieeexplore.ieee.org/abstract/document/9422655
 
 ### IoT based smart home automation system using sensor node
 
 Urządzenie IoT - ESP8266 + Arduino, PHP, temperature
+
+**Wykorzystanie:**
 
 Link: https://ieeexplore.ieee.org/abstract/document/8389037
 
