@@ -124,7 +124,7 @@ Link: https://ieeexplore.ieee.org/abstract/document/9422655
 
 Urządzenie IoT - ESP8266 + Arduino, PHP, temperature
 
-**Wykorzystanie:**
+**Wykorzystanie:** Ten artykuł może powiedzieć nam jak poradzić sobie z implementacją połączenia czujnika. Oprócz tego jest również użyta technologia PHP oraz Arduino, którą wykorzystujemy w projekcie. 
 
 Link: https://ieeexplore.ieee.org/abstract/document/8389037
 
@@ -132,9 +132,7 @@ Link: https://ieeexplore.ieee.org/abstract/document/8389037
 
 Internet of Things, ESP8266, ESP-NOW, React, PostgreSQL
 
-**Wykorzystanie:**
-
-Z tego artykułu możemy dowiedzieć się na temat tworzenia aplikacji w React-cie oraz podłączenia bazy danych PostgreSQL
+**Wykorzystanie:** Z tego artykułu możemy dowiedzieć się na temat tworzenia aplikacji w React-cie oraz podłączenia bazy danych PostgreSQL
 
 Link: https://is.muni.cz/th/tkn3c/bp_Archive.pdf
 
