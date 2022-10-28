@@ -161,7 +161,8 @@ Zostanie napisane z wykorzystaniem frameworku Symfony w języku PHP 8 wraz z dod
 Planujemy stworzyć Single-Page Application, do czego możemy wykorzystać rozmaite frameworki JavaScript, jak AngularJS, React czy Vue.js. Nie zdecydowaliśmy się jeszcze na konkretny framework. Komunikacja z API będzie się odbywać poprzez zapytania w tle (AJAX), z wykorzystaniem biblioteki Axios.
 
 ## Baza danych
-Planujemy wykorzystać bazę PostgreSQL. Alternatywami były SQLite oraz MongoDB.
+
+Planujemy wykorzystać bazę PostgreSQL, gdyż wszyscy już pracowaliśmy z tą bazą. Alternatywami były SQLite oraz MongoDB, jednak na korzyść PostgreSQL przemawia łatwa integracja z ORM. W przypadku, gdybyśmy chcieli przechowywać dane, dla których nie uwzględniliśmy kolumn, możemy stworzyć kolumnę z typem danych `json`, która w modelu będzie dostępna jako słownik (tablica asocjacyjna). 
 
 \newpage
 
