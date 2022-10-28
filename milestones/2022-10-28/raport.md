@@ -128,6 +128,16 @@ Urządzenie IoT - ESP8266 + Arduino, PHP, temperature
 
 Link: https://ieeexplore.ieee.org/abstract/document/8389037
 
+### Wireless system to call a waitress
+
+Internet of Things, ESP8266, ESP-NOW, React, PostgreSQL
+
+**Wykorzystanie:**
+
+Z tego artykułu możemy dowiedzieć się na temat tworzenia aplikacji w React-cie oraz podłączenia bazy danych PostgreSQL
+
+Link: https://is.muni.cz/th/tkn3c/bp_Archive.pdf
+
 <!--
 
 # Algorytmy wykorzystane w projekcie
