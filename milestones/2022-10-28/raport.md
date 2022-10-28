@@ -110,13 +110,27 @@ Urządzenie IoT - ESP8266 + Apache+ PHP + SQLite3.
 
 **Wykorzystanie:**
 
+Ten artykuł okazuje się pomocny gdy myślimy o stworzeniu aplikacji w PHP oraz połączeniu tego z bazą danych, w tym przypadku SQLite3.
+
 Link: https://ieeexplore.ieee.org/abstract/document/7570919
+
+### Wireless system to call a waitress
+
+Internet of Things, ESP8266, ESP-NOW, React, PostgreSQL
+
+**Wykorzystanie:**
+
+Z tego artykułu możemy dowiedzieć się na temat tworzenia aplikacji w React-cie oraz podłączenia bazy danych PostgreSQL
+
+Link: https://is.muni.cz/th/tkn3c/bp_Archive.pdf
 
 ### A Design of Greenhouse Monitoring System Based on Low-Cost Mesh Wi-Fi Wireless Sensor Network
 
 Urządzenie IoT - MongoDB + esp8266, PlatformIO i Arduino
 
 **Wykorzystanie:**
+
+Z tego artykułu dowiedzieliśmy się jak wygląda użycie bazy danych MongoDB.
 
 Link: https://ieeexplore.ieee.org/abstract/document/9422655
 
@@ -125,6 +139,8 @@ Link: https://ieeexplore.ieee.org/abstract/document/9422655
 Urządzenie IoT - ESP8266 + Arduino, PHP, temperature
 
 **Wykorzystanie:**
+
+Ten artykuł może powiedzieć nam jak poradzić sobie z implementacją połączenia czujnika. Oprócz tego jest również użyta technologia PHP oraz Arduino, którą wykorzystujemy w projekcie. 
 
 Link: https://ieeexplore.ieee.org/abstract/document/8389037
 
