@@ -160,6 +160,9 @@ Zostanie napisane z wykorzystaniem frameworku Symfony w języku PHP 8 wraz z dod
 
 Planujemy stworzyć Single-Page Application, do czego możemy wykorzystać rozmaite frameworki JavaScript, jak AngularJS, React czy Vue.js. Nie zdecydowaliśmy się jeszcze na konkretny framework. Komunikacja z API będzie się odbywać poprzez zapytania w tle (AJAX), z wykorzystaniem biblioteki Axios.
 
+## Baza danych
+Planujemy wykorzystać bazę PostreSQL. Alternatywami były SQLite oraz MongoDB. 
+
 \newpage
 
 # Diagramy przypadków użycia
