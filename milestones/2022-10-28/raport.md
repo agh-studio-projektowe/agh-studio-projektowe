@@ -116,7 +116,7 @@ Link: https://ieeexplore.ieee.org/abstract/document/7570919
 
 Urządzenie IoT - MongoDB + esp8266, PlatformIO i Arduino
 
-**Wykorzystanie:**
+**Wykorzystanie:** Z tego artykułu dowiedzieliśmy się jak wygląda użycie bazy danych MongoDB.
 
 Link: https://ieeexplore.ieee.org/abstract/document/9422655
 
