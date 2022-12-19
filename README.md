@@ -1,5 +1,10 @@
 # Changelog
 
+## 2 grudnia 2022
+
+- Zmieniona technologia frontendu - Flutter
+- MQTT listener będzie testowany z wykorzystaniem Jest
+
 ## 26 października 2022
 
 - Przygotowanie diagramów usecase
