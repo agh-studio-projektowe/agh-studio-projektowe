@@ -1,5 +1,14 @@
 # Changelog
 
+## 5 stycznia 2023
+
+- Podstawowa automatyzacja - przyrównywanie otrzymanej wartości z zapisaną w bazie
+- Możliwość łatwej rozbudowy systemu automatyzacji
+
+## 22 grudnia 2022
+
+- Konieczność przebudowy automatyzacji (systemu formułkowego)
+
 ## 2 grudnia 2022
 
 - Zmieniona technologia frontendu - Flutter
